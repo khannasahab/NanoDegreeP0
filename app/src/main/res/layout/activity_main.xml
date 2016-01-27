@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nanodegreep0.prodpeak.com.nanodegreep0.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/my_nanodegree_app"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_selector"
+        android:minWidth="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Spotify Streamer" />
+
+    <Button
+        android:id="@+id/scores_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:minWidth="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Scores App" />
+
+    <Button
+        android:id="@+id/library_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:minWidth="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Library App" />
+
+    <Button
+        android:id="@+id/build_bigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:minWidth="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Build it Bigger" />
+
+    <Button
+        android:id="@+id/xyz_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:minWidth="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="XYZ Reader" />
+
+    <Button
+        android:id="@+id/capstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector_reverse"
+        android:minWidth="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Capstone My Own App"
+        android:textColor="@android:color/white" />
+</LinearLayout>
